@@ -22,7 +22,6 @@ const upload = multer({ storage });
 
 
 app.post('/enviar/mapa_conceitual', upload.single('FILE'), (_req, res) => {
-  console.log(_req);
   res.send({ cod: 200, message: 'Arquivo recebido! Aguarde convertendo...' })
 });
 

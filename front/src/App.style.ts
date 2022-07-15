@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { Container, Row, Col, Form, Button, Image, Alert } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Image, Alert, Spinner } from 'react-bootstrap';
 
-import { SendPlus, Exclude, XSquareFill } from 'react-bootstrap-icons';
+import { SendPlus, Exclude, XSquareFill, Download } from 'react-bootstrap-icons';
 import { Colors } from './Colors';
 
 
@@ -14,14 +14,14 @@ interface IProps {
     color?: any;
     src?: string;
     disabled?: boolean;
+    colorSpinner: string;
 }
 
 export const AlertStyle = styled(Alert)`
     color: #842029;
     background-color: #f8d7da;
     border-color: #f5c2c7;
-    height: 3em;
-    padding: 1em;
+    height: 7em;
     text-align: center;
 `;
 
@@ -120,6 +120,36 @@ export const IconCancel = styled(XSquareFill)`
     font-size: 18px ;
     box-shadow: -4px 2px 20px 2px #2F3234;
 `;
+
+
+export const IconDownload = styled(Download)`
+    margin: -4px 8px;
+    font-size: 18px ;
+    box-shadow: -4px 2px 20px 2px #024EA1;
+`;
+
+
+export const SpinnerStyle = styled(Spinner)`
+    font-size: 15px;
+    background-color: ${(props: IProps) => props.colorSpinner || 'green'};
+    display: inline-block;
+    border-radius: 20px;
+    color: green;
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    animation: go-back 1s infinite alternate;
+
+    @keyframes go-back {
+        from {
+            transform: translateY(50px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+`;
+
 
 
 

@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 import './App.css';
 
-import { Form, Alert, Spinner } from 'react-bootstrap';
+import { Form, Alert } from 'react-bootstrap';
 
 import {
   ContainerStyle,
@@ -18,6 +18,8 @@ import {
   IconCancel,
   LogoImage,
   AlertStyle,
+  SpinnerStyle,
+  IconDownload,
 } from './App.style';
 
 import { Colors } from './Colors';
@@ -28,6 +30,7 @@ import api from './app.services';
 function App() {
   const filevazio = 'Clique aqui para selecionar o arquivo';
 
+  const [loading, setLoading] = useState(false);
   const [alert, setAlert] = useState(<Alert variant='danger'></Alert>);
 
   const [nameFile, setNameFile] = useState(filevazio);
@@ -35,6 +38,8 @@ function App() {
   const [clickCount, setClickCount] = useState(0);
 
   const fileToConvert = useRef(null);
+
+  const [resp, setResp] = useState({ cod: 0, message: '' });
 
 
   function formIsValid() {
@@ -44,13 +49,13 @@ function App() {
       setAlert(
         <AlertStyle variant='danger'>
           <span>Selecione um arquivo para conversão.</span>
-          <Spinner style={{ backgroundColor: '#FF0000' }} animation="grow" variant="danger" />
+          <SpinnerStyle colorSpinner={'red'}/>
         </AlertStyle>
       );
 
       window.setTimeout(() => {
         setClickCount(0);
-      }, 1500);
+      }, 3000);
 
       return false;
     } else {
@@ -61,28 +66,45 @@ function App() {
 
   function convert(form: any) {
     form.preventDefault();
+    setLoading(true);
 
     const formData = new FormData();
 
-    if(formIsValid() && file){
+    if (formIsValid() && file) {
       formData.append('FILE', file);
-      
-      
+
       api
         .post('/enviar/mapa_conceitual', formData)
-        .then((res) => console.log(res))
+        .then((res) => setResp(res.data))
         .catch((err) => console.error('ERRO::::', err))
-      ;
+        .finally(() => setLoading(false));
 
+    }
+    else {
+      setLoading(false);
     };
 
-    
+
 
   };
 
 
+  function download() {
+    setLoading(true);
+
+    api
+      .get('/download/topics_map')
+      .then((res) => setResp(res.data))
+      .catch((err) => console.error(err))
+      .finally(() => setLoading(false))
+
+      window.open('http://localhost:3333/download/topics_map');
+  }
+
+
   function cancel() {
     setNameFile(filevazio);
+    setResp({ cod: 0, message: '' });
   };
 
 
@@ -112,29 +134,40 @@ function App() {
             <h4>Converta seu Mapa Conceitual em Mapa de Tópicos</h4>
           </RowSubtitleStyle>
 
+          {loading && <>
+            <SpinnerStyle className={'spinner-grow spinner-border'} />
+            <p style={{ color: 'gray' }}><b>Aguarde! Carregando...</b></p>
+          </>}
+
 
 
           <Form onSubmit={(form) => { convert(form) }} onReset={() => cancel()}>
 
-            <ColStyle marginTop={'3em'} textAlignLeft>
 
+            <ColStyle marginTop={'3em'} textAlignLeft>
 
               <Form.Group controlId="formFile" className="mb-3">
 
                 <RowBodyStyle>
+                  {!loading &&
+                    <LabelFileStyle>
 
-                  <LabelFileStyle>
-                    <IconSelectFile />
-                    {nameFile}
-                    <InputFileStyle
-                      ref={fileToConvert}
-                      type='file'
-                      onChange={(e: any) => {
-                        setNameFile(e.target.value.replace('C:\\fakepath\\', ''));
-                        setFile(e.target.files[0]);
-                      }}
-                    />
-                  </LabelFileStyle>
+                      <IconSelectFile />
+
+                      {nameFile}
+
+                      <InputFileStyle
+                        ref={fileToConvert}
+                        type={'file'}
+                        accept={'.xml'}
+                        onChange={(e: any) => {
+                          setNameFile(e.target.value.replace('C:\\fakepath\\', ''));
+                          setFile(e.target.files[0]);
+                        }}
+                      />
+
+                    </LabelFileStyle>
+                  }
 
                 </RowBodyStyle>
 
@@ -146,16 +179,24 @@ function App() {
 
 
             <RowBodyStyle>
-              <IButton disabled={nameFile === filevazio} type={'reset'} backgroundColor={Colors.secondary}>
-                Cancelar
+              <IButton disabled={nameFile === filevazio || loading} type={'reset'} backgroundColor={Colors.secondary}>
+                Limpar
                 {!(nameFile === filevazio) && <IconCancel />}
               </IButton>
 
 
-              <IButton type={'submit'} backgroundColor={Colors.primary}>
+              <IButton disabled={loading} type={'submit'} backgroundColor={Colors.primary}>
                 <IconConvert />
                 Converter
               </IButton>
+
+
+              { !loading && resp.cod === 200 &&
+                <IButton disabled={loading} type={'button'} backgroundColor={Colors.info} onClick={download}>
+                  <IconDownload />
+                  Download
+                </IButton>
+              }
             </RowBodyStyle>
 
           </Form>
