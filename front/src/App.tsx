@@ -98,7 +98,7 @@ function App() {
       .catch((err) => console.error(err))
       .finally(() => setLoading(false))
 
-      window.open('http://localhost:3333/download/topics_map');
+      // window.open('http://localhost:3333/download/topics_map');
   }
 
 
@@ -159,7 +159,7 @@ function App() {
                       <InputFileStyle
                         ref={fileToConvert}
                         type={'file'}
-                        accept={'.xml'}
+                        accept={'.cxl, .xml'}
                         onChange={(e: any) => {
                           setNameFile(e.target.value.replace('C:\\fakepath\\', ''));
                           setFile(e.target.files[0]);
