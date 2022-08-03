@@ -98,7 +98,7 @@ function App() {
       .catch((err) => console.error(err))
       .finally(() => setLoading(false))
 
-      // window.open('http://localhost:3333/download/topics_map');
+      window.open('http://localhost:3333/download/topics_map');
   }
 
 

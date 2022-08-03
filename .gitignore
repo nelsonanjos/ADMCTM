@@ -126,3 +126,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 back/mapa_conceitual.xml
+back/PARA_ANALISE_EXPORTADO_CMAPTOOLS.cxl
+back/PARA_ANALISE_FINAL_JSON.json
+back/mapa_conceitual.xml
+back/yarn.lock
+back/mapa_conceitual.xml
+TCC_FINAL.code-workspace

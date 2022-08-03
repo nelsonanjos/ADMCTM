@@ -26,54 +26,14 @@ const upload = multer({ storage });
 
 app.post('/enviar/mapa_conceitual', upload.single('FILE'), (_req, res) => {
   res.send({ cod: 200, message: 'Arquivo recebido! Aguarde convertendo...' })
-});
 
+  function writeXTM(concept_list, linking_phrase_list, connection_list) {
 
-
-
-app.get('/download/topics_map', (_req, res) => {
-
-  function fetchTop(concept_list, connection_list) {
-
-    let top = null;
-
-    concept_list.forEach(concept => {
-      var notIsTop = false;
-
-      connection_list.forEach(connection => {
-        if (concept.$.id === connection.$.to_id) {
-          notIsTop = true;
-        }
-      });
-
-      if (notIsTop === false) top = concept;
-
-    });
-
-    return top.$;
-  };
-
-
-  fs.readFile('mapa_conceitual.xml', (err, data) => {
-    if (err) throw new Error(err);
-
-    const parser = new xml2js.Parser();
-    parser.parseStringPromise(data)
-      .then((res) => {
-        const newMap = JSON.parse(JSON.stringify(res.cmap.map[0]).replaceAll('-', '_')); //Tem que alterar os '-' / '_' das chaves
-
-        const concept_list = newMap.concept_list[0].concept;
-        const linking_phrase_list = newMap.linking_phrase_list[0].linking_phrase;
-        const connection_list = newMap.connection_list[0].connection;
-
-
-        const topicTop = fetchTop(concept_list, connection_list);
-
-        let xtm = '';
+    let xtm = '';
 
         xtm += (
           `<?xml version="1.0"?>
-          <!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./xtm1.dtd">
+          <!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
           <topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>`
         );
         
@@ -129,19 +89,59 @@ app.get('/download/topics_map', (_req, res) => {
 
       });
 
-      xtm += '</topicMap>'
+      xtm += '</topicMap>';
+
+      return xtm;
+  };
 
 
-        // console.log(connection_list);
-        console.log(xtm);
+  fs.readFile('mapa_conceitual.xml', (err, data) => {
+    if (err) throw new Error(err);
+
+    const parser = new xml2js.Parser();
+    parser.parseStringPromise(data)
+      .then((res) => {
+        const newMap = JSON.parse(JSON.stringify(res.cmap.map[0]).replaceAll('-', '_')); //Tem que alterar os '-' / '_' das chaves
+
+        const concept_list = newMap.concept_list[0].concept;
+        const linking_phrase_list = newMap.linking_phrase_list[0].linking_phrase;
+        const connection_list = newMap.connection_list[0].connection;
+
+
+        let xtm = writeXTM(concept_list, linking_phrase_list, connection_list);
+        
+
+        fs.writeFile('topics_map.xml', xtm, 
+          {
+            encoding: 'utf8',
+            flag: 'w',
+            mode: 0o666,    
+          },
+          (err) => {
+            if(err) throw new Error(err);
+          }
+        );
 
       })
       .catch((err) => {
         console.log(err);
       });
-  })
+  });
 
-  res.send({ cod: 200, message: '' });
+});
+
+
+
+
+app.get('/download/topics_map', (_req, res) => {
+
+
+  res.setHeader('Content-disposition', 'attachment; filename=topics_map.xml');
+  res.download('topics_map.xml', (err) => { 
+    if (err) console.error(err);
+  });
+
+  // res.send({ cod: 200, message: 'Mapa enviado com sucesso!' });
 });
 
 

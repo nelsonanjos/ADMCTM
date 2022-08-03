@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+          <!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./xtm1.dtd">
+          <topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>
+          <topic id="Conceito_Principal">
+            <baseName>
+              <baseNameString>Conceito Principal</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_6">
+            <baseName>
+              <baseNameString>Conceito 6</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_2">
+            <baseName>
+              <baseNameString>Conceito 2</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Mais_1">
+            <baseName>
+              <baseNameString>Mais 1</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="então">
+            <baseName>
+              <baseNameString>então</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_5">
+            <baseName>
+              <baseNameString>Conceito 5</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_4">
+            <baseName>
+              <baseNameString>Conceito 4</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_7">
+            <baseName>
+              <baseNameString>Conceito 7</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_1">
+            <baseName>
+              <baseNameString>Conceito 1</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_3">
+            <baseName>
+              <baseNameString>Conceito 3</baseNameString>
+            </baseName>
+          </topic>
+          <topic id="Conceito_8">
+            <baseName>
+              <baseNameString>Conceito 8</baseNameString>
+            </baseName>
+          </topic>
+          <association id="Conexão_6">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_2" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_6" />
+            </member>
+          </association>
+          
+          <association id="Conexão_2">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_Principal" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_2" />
+            </member>
+          </association>
+          
+          <association id="Conexão_8">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_2" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_8" />
+            </member>
+          </association>
+          
+          <association id="Conexão_5">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_1" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_5" />
+            </member>
+          </association>
+          
+          <association id="Conexão_1">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_Principal" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_1" />
+            </member>
+          </association>
+          
+          <association id="Conexão_7">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_2" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_7" />
+            </member>
+          </association>
+          
+          <association id="Conexão4">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_1" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_4" />
+            </member>
+          </association>
+          
+          <association id="Mais_1_conexão">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_4" />
+              </roleSpec>
+              <topicRef xlink:href="#Mais_1" />
+            </member>
+          </association>
+          
+          <association id="Conexão_3">
+            <member>
+              <roleSpec>
+                <topicRef xlink:href="#Conceito_1" />
+              </roleSpec>
+              <topicRef xlink:href="#Conceito_3" />
+            </member>
+          </association>
+          </topicMap>
