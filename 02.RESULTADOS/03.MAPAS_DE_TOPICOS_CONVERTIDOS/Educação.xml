@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
+<topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<topic id="1YBJQZ1BP-1J37SSV-CDP">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQZ1BP-1J37SSV-CDP"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Sistema de Interações  Comportamentais</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJR2P35-GY9ZBB-CRM">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJR2P35-GY9ZBB-CRM"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Professor </baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQQRXT-1YMQ362-BXQ">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQQRXT-1YMQ362-BXQ"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Competência</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQPY10-18JZCWT-BTT">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQPY10-18JZCWT-BTT"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Potencialidade</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJR52TK-1QGFNT7-CWN">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJR52TK-1QGFNT7-CWN"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Aluno </baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQZVBY-PD5X1R-CH9">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQZVBY-PD5X1R-CH9"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Professor e  Aluno</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQMDF3-53LJY9-BP1">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Prática Social</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJR4RQJ-J9P4K2-CVQ">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJR4RQJ-J9P4K2-CVQ"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Aprendizagem</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQQFK0-1CZ7V9V-BWF">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQQFK0-1CZ7V9V-BWF"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Habilidade</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQTCRN-1BJWLGD-C2Y">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQTCRN-1BJWLGD-C2Y"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Ser Humano</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJR7HCS-39BX66-D2V">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJR7HCS-39BX66-D2V"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Conhecimento</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQMTDF-X4LR9R-BQJ">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQMTDF-X4LR9R-BQJ"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Desenvolvimento</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJR2C5L-1JFQB2K-CQD">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJR2C5L-1JFQB2K-CQD"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Ensino</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQX6M8-PHWT7R-C7Z">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQX6M8-PHWT7R-C7Z"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Ensino_aprendizagem</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQVHB4-229TVJY-C54">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQVHB4-229TVJY-C54"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Escola</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQ8YQR-SPL6FV-BKJ">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Educação</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YBJQW55V-239ZXVF-C6N">
+  <instanceOf>
+    <topicRef xlink:href="#1YBJQW55V-239ZXVF-C6N"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Um direito de todos</baseNameString>
+  </baseName>
+</topic>
+
+<association id="1YBJQMDF4-1JWK734-BP4">
+  <instanceOf>
+    <topicRef xlink:href="#é" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJR2P36-S9P1SJ-CRQ">
+  <instanceOf>
+    <topicRef xlink:href="#defini_se" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJQTCRP-ZZNFGR-C31">
+  <instanceOf>
+    <topicRef xlink:href="#do" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJQX6M8-281W9GS-C82">
+  <instanceOf>
+    <topicRef xlink:href="#através" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJQZ1BQ-12M524H-CDS">
+  <instanceOf>
+    <topicRef xlink:href="#é" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJQQFK1-6SZKJT-BWJ">
+  <instanceOf>
+    <topicRef xlink:href="#da" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJR83NP-1ND0819-D44">
+  <instanceOf>
+    <topicRef xlink:href="#Adiquire" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJR52TL-QH1L6K-CWR">
+  <instanceOf>
+    <topicRef xlink:href="#defini_se" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJQVHB5-1GQ0553-C57">
+  <instanceOf>
+    <topicRef xlink:href="#não se restringe" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJR2C5M-6H3T3J-CQH">
+  <instanceOf>
+    <topicRef xlink:href="#onde" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJR7HCT-210XH9T-D2Y">
+  <instanceOf>
+    <topicRef xlink:href="#estabelece" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJQZVBZ-N3ZVCW-CHD">
+  <instanceOf>
+    <topicRef xlink:href="#entre" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+
+<association id="1YBJQMTDG-SNMNWX-BQM">
+  <instanceOf>
+    <topicRef xlink:href="#visa" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YBJQMDF3-53LJY9-BP1" />
+    </roleSpec>
+    <topicRef xlink:href="#1YBJQ8YQR-SPL6FV-BKJ" />
+  </member>
+</association>
+</topicMap>

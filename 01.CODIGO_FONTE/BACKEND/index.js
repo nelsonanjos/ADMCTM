@@ -23,6 +23,17 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 
+function normalize(value, type) {
+  if (type === 1){
+    return value.replaceAll('&#xa;', ' ').replaceAll('&#xe;', ' ').replaceAll('&quot;', ' ').replaceAll('\n', ' ');
+  }
+
+  if (type == 2){
+    return value.replaceAll('\n', ' ');
+  }
+};
+
+
 
 app.post('/enviar/mapa_conceitual', upload.single('FILE'), (_req, res) => {
   res.send({ cod: 200, message: 'Arquivo recebido! Aguarde convertendo...' })
@@ -31,65 +42,87 @@ app.post('/enviar/mapa_conceitual', upload.single('FILE'), (_req, res) => {
 
     let xtm = '';
 
-        xtm += (
-          `<?xml version="1.0"?>
-          <!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
-          <topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>`
-        );
+xtm += (
+`<?xml version="1.0"?>
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
+<topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>`
+);
         
       concept_list.forEach((concept) => {
-        xtm += (`
-          <topic id="${concept.$.label.replaceAll(' ', '_')}">
-            <baseName>
-              <baseNameString>${concept.$.label}</baseNameString>
-            </baseName>
-          </topic>`
-        );
+xtm += (`
+<topic id="${concept.$.id.replaceAll('_','-')}">
+  <instanceOf>
+    <topicRef xlink:href="#${concept.$.id.replaceAll('_','-')}"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>${normalize(concept.$.label, 1)}</baseNameString>
+  </baseName>
+</topic>
+`);
       });
 
+      let connectionId = '';
       let connection = '';
+      let topicToId = [];
       let topicTo = [];
       let topicFrom = [];
+      let topicFromId = [];
 
       linking_phrase_list.forEach((linking) => {
 
-        connection = linking.$.label.replaceAll(' ', '_');
+        connectionId = linking.$.id.replaceAll('_','-');
+        connection = linking.$.label;
         
         connection_list.forEach((connection) => {
           if(linking.$.id === connection.$.from_id){
 
             concept_list.forEach((concept) => {
-              if(concept.$.id === connection.$.to_id) topicFrom.push(concept.$.label.replaceAll(' ', '_'));
+              if(concept.$.id === connection.$.to_id) {
+                topicFromId.push(concept.$.id.replaceAll('_','-'))
+                topicFrom.push(normalize(concept.$.label, 1))
+              };
             })
           }
           
           if(linking.$.id === connection.$.to_id){
 
             concept_list.forEach((concept) => {
-              if(concept.$.id === connection.$.from_id) topicTo.push(concept.$.label.replaceAll(' ', '_'));
+              if(concept.$.id === connection.$.from_id) {
+                topicToId.push(concept.$.id.replaceAll('_','-'))
+                topicTo.push(normalize(concept.$.label, 1))
+              };
             })
           }
         });
 
         
 
-        xtm += (`
-          <association id="${connection}">
-            <member>
-              <roleSpec>
-                <topicRef xlink:href="#${topicTo[0]}" />
-              </roleSpec>
-              <topicRef xlink:href="#${topicFrom[0]}" />
-            </member>
-          </association>
-          `);
+xtm += (`
+<association id="${connectionId}">
+  <instanceOf>
+    <topicRef xlink:href="#${connection}" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#${topicToId[0]}" />
+    </roleSpec>
+    <topicRef xlink:href="#${topicFromId[0]}" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#${topicFromId[0]}" />
+    </roleSpec>
+    <topicRef xlink:href="#${topicToId[0]}" />
+  </member>
+</association>
+`);
 
       topicTo= [];
       topicFrom= [];
 
       });
 
-      xtm += '</topicMap>';
+xtm += '</topicMap>';
 
       return xtm;
   };

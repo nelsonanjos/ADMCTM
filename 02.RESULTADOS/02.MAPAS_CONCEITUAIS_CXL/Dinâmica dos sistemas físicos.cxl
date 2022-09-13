@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Din&#xe2;mica dos sistemas f&#xed;sicos</dc:title>
+        <dc:creator>
+            <vcard:FN>Nelson Anjos</vcard:FN>
+            <vcard:EMAIL>nelson.contatos@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>IF Baiano</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>Nelson Anjos</vcard:FN>
+            <vcard:EMAIL>nelson.contatos@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>IF Baiano</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>Nelson Anjos</vcard:FN>
+            <vcard:EMAIL>nelson.contatos@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>IF Baiano</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2022-08-20T06:22:58-03:00</dcterms:created>
+        <dcterms:modified>2022-08-20T06:22:58-03:00</dcterms:modified>
+        <dc:language>pt</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.03</dc:publisher>
+        <dc:extent>6164 bytes</dc:extent>
+        <dc:source>cmap:1Y5NCGZ9D-1YWTPH0-1:1Y5NCH1QG-3VMCS3-Z:1YCJB78R8-1LB4DRD-8XH</dc:source>
+    </res-meta>
+    <map width="953" height="615">
+        <concept-list>
+            <concept id="1YCJB7GB5-50X4LY-8XP" label="Din&#xe2;mica dos sistemas f&#xed;sicos"/>
+            <concept id="1YCJB95ZD-VLW2BV-957" label="Energia potencial de vibra&#xe7;&#xe3;o&#xa;associada a din&#xe2;mica de um&#xa;sistema que varia periodicamente&#xa;sua amplitude"/>
+            <concept id="1YCJB9P33-1HSDTD2-993" label="Energia interna que engloba&#xa;v&#xe1;rias formas de energia de&#xa;um sistema geral &#xe9; energia t&#xe9;rmica    "/>
+            <concept id="1YCJB9DXK-1V2Y4QH-97K" label="Energia potencial gravitacional&#xa;associada a din&#xe2;mica de uma&#xa;particula imersa em um campo&#xa;gravitacional  "/>
+            <concept id="1YCJB9J83-3KN4QR-98B" label="Energia nuclear associada ao&#xa;comportamento das part&#xed;culas&#xa;que constituem o n&#xfa;cleo at&#xf4;mico"/>
+            <concept id="1YCJB7YF7-29TGKYP-8Z2" label="ENERGIA"/>
+            <concept id="1YCJB9C2S-1Y5DZYS-96S" label="Energia cin&#xe9;tica de transla&#xe7;&#xe3;o&#xa;associada a din&#xe2;mica de uma&#xa;par&#xed;cula livre"/>
+            <concept id="1YCJB923D-20XX5WG-94F" label="Energia cin&#xe9;tica de rota&#xe7;&#xe3;o&#xa;associada a din&#xe2;mica de &#xa;corpos r&#xed;gidos"/>
+            <concept id="1YCJB7MKR-93Y87K-8Y1" label="Sistema conservativo"/>
+            <concept id="1YCJB98XP-4BG8V5-960" label="Energia potencial el&#xe9;trica&#xa;associada distribui&#xe7;&#xe3;o espacial&#xa;de cargas el&#xe9;tricas"/>
+            <concept id="1YCJB84J3-1QL9QXD-8ZW" label="Energia cin&#xe9;tica de vibra&#xe7;&#xe3;o&#xa;associada a sistemas oscilantes"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1YCJB9J83-1DV62C8-98F" label="exemplo"/>
+            <linking-phrase id="1YCJB95ZD-29TYQNY-95B" label="exemplo"/>
+            <linking-phrase id="1YCJB9P33-9YYMWM-996" label="exemplo"/>
+            <linking-phrase id="1YCJB9DXK-1ZDX5R4-97N" label="exemplo"/>
+            <linking-phrase id="1YCJB9C2X-95QCDC-96W" label="exemplo"/>
+            <linking-phrase id="1YCJB84J3-W62SVF-8ZZ" label="exemplo"/>
+            <linking-phrase id="1YCJB7MKR-CN9T8M-8Y4" label="descrita pela Harmoniana dos sistema    "/>
+            <linking-phrase id="1YCJB98XP-RCR56G-963" label="exemplo"/>
+            <linking-phrase id="1YCJB923D-1VNW07T-94J" label="exemplo"/>
+            <linking-phrase id="1YCJB7YF7-22DPNB-8Z5" label="a hamiltoniana &#xe9; igual a"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1YCJB95ZD-21XCT4-95L" from-id="1YCJB95ZD-29TYQNY-95B" to-id="1YCJB95ZD-VLW2BV-957"/>
+            <connection id="1YCJB7YF7-1V6W0TX-8Z8" from-id="1YCJB7MKR-93Y87K-8Y1" to-id="1YCJB7YF7-22DPNB-8Z5"/>
+            <connection id="1YCJB9J83-2F0Y11-98J" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB9J83-1DV62C8-98F"/>
+            <connection id="1YCJB9P33-1M34HVN-99G" from-id="1YCJB9P33-9YYMWM-996" to-id="1YCJB9P33-1HSDTD2-993"/>
+            <connection id="1YCJB923D-1CTBR0P-94S" from-id="1YCJB923D-1VNW07T-94J" to-id="1YCJB923D-20XX5WG-94F"/>
+            <connection id="1YCJB9C2X-278YCNL-974" from-id="1YCJB9C2X-95QCDC-96W" to-id="1YCJB9C2S-1Y5DZYS-96S"/>
+            <connection id="1YCJB9J83-1CZ2DPG-98P" from-id="1YCJB9J83-1DV62C8-98F" to-id="1YCJB9J83-3KN4QR-98B"/>
+            <connection id="1YCJB9DXK-1PV403T-97X" from-id="1YCJB9DXK-1ZDX5R4-97N" to-id="1YCJB9DXK-1V2Y4QH-97K"/>
+            <connection id="1YCJB7YF7-JHB3HY-8ZG" from-id="1YCJB7YF7-22DPNB-8Z5" to-id="1YCJB7YF7-29TGKYP-8Z2"/>
+            <connection id="1YCJB98XP-1GTGJLL-96C" from-id="1YCJB98XP-RCR56G-963" to-id="1YCJB98XP-4BG8V5-960"/>
+            <connection id="1YCJB84J8-1LWSPD7-908" from-id="1YCJB84J3-W62SVF-8ZZ" to-id="1YCJB84J3-1QL9QXD-8ZW"/>
+            <connection id="1YCJB7MKR-W62B85-8YG" from-id="1YCJB7MKR-CN9T8M-8Y4" to-id="1YCJB7MKR-93Y87K-8Y1"/>
+            <connection id="1YCJB923D-15PW8SC-94M" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB923D-1VNW07T-94J"/>
+            <connection id="1YCJB7MKR-F27F08-8Y8" from-id="1YCJB7GB5-50X4LY-8XP" to-id="1YCJB7MKR-CN9T8M-8Y4"/>
+            <connection id="1YCJB9DXK-12S1B71-97R" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB9DXK-1ZDX5R4-97N"/>
+            <connection id="1YCJB84J8-2BY59KL-902" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB84J3-W62SVF-8ZZ"/>
+            <connection id="1YCJB9C2X-23BDJMQ-96Z" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB9C2X-95QCDC-96W"/>
+            <connection id="1YCJB9P33-1WKZZLS-999" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB9P33-9YYMWM-996"/>
+            <connection id="1YCJB98XP-1YBDXW2-966" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB98XP-RCR56G-963"/>
+            <connection id="1YCJB95ZD-20HS4W4-95F" from-id="1YCJB7YF7-29TGKYP-8Z2" to-id="1YCJB95ZD-29TYQNY-95B"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1YCJB7GB5-50X4LY-8XP" x="701" y="91" width="195" height="26"/>
+            <concept-appearance id="1YCJB95ZD-VLW2BV-957" x="326" y="525" width="220" height="72"/>
+            <concept-appearance id="1YCJB9P33-1HSDTD2-993" x="1043" y="303" width="248" height="57"/>
+            <concept-appearance id="1YCJB9DXK-1V2Y4QH-97K" x="958" y="571" width="204" height="71"/>
+            <concept-appearance id="1YCJB9J83-3KN4QR-98B" x="1044" y="470" width="216" height="57"/>
+            <concept-appearance id="1YCJB7YF7-29TGKYP-8Z2" x="705" y="414" width="71" height="25"/>
+            <concept-appearance id="1YCJB9C2S-1Y5DZYS-96S" x="775" y="662" width="197" height="57"/>
+            <concept-appearance id="1YCJB923D-20XX5WG-94F" x="333" y="368" width="180" height="57"/>
+            <concept-appearance id="1YCJB7MKR-93Y87K-8Y1" x="702" y="227" width="145" height="25"/>
+            <concept-appearance id="1YCJB98XP-4BG8V5-960" x="543" y="611" width="200" height="57"/>
+            <concept-appearance id="1YCJB84J3-1QL9QXD-8ZW" x="348" y="245" width="206" height="41"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1YCJB9J83-1DV62C8-98F" x="874" y="442" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB95ZD-29TYQNY-95B" x="515" y="469" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB9P33-9YYMWM-996" x="889" y="358" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB9DXK-1ZDX5R4-97N" x="831" y="492" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB9C2X-95QCDC-96W" x="738" y="529" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB84J3-W62SVF-8ZZ" x="515" y="332" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB7MKR-CN9T8M-8Y4" x="701" y="159" width="249" height="14"/>
+            <linking-phrase-appearance id="1YCJB98XP-RCR56G-963" x="624" y="512" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB923D-1VNW07T-94J" x="519" y="391" width="53" height="14"/>
+            <linking-phrase-appearance id="1YCJB7YF7-22DPNB-8Z5" x="703" y="320" width="147" height="14"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1YCJB95ZD-21XCT4-95L" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB7YF7-1V6W0TX-8Z8" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9J83-2F0Y11-98J" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9P33-1M34HVN-99G" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB923D-1CTBR0P-94S" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9C2X-278YCNL-974" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9J83-1CZ2DPG-98P" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9DXK-1PV403T-97X" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB7YF7-JHB3HY-8ZG" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB98XP-1GTGJLL-96C" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB84J8-1LWSPD7-908" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB7MKR-W62B85-8YG" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB923D-15PW8SC-94M" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB7MKR-F27F08-8Y8" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9DXK-12S1B71-97R" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB84J8-2BY59KL-902" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9C2X-23BDJMQ-96Z" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB9P33-1WKZZLS-999" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB98XP-1YBDXW2-966" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YCJB95ZD-20HS4W4-95F" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+    </map>
+</cmap>

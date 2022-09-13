@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
+<topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<topic id="1YCJB7GB5-50X4LY-8XP">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB7GB5-50X4LY-8XP"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Dinâmica dos sistemas físicos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB95ZD-VLW2BV-957">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB95ZD-VLW2BV-957"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia potencial de vibração associada a dinâmica de um sistema que varia periodicamente sua amplitude</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB9P33-1HSDTD2-993">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB9P33-1HSDTD2-993"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia interna que engloba várias formas de energia de um sistema geral é energia térmica    </baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB9DXK-1V2Y4QH-97K">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB9DXK-1V2Y4QH-97K"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia potencial gravitacional associada a dinâmica de uma particula imersa em um campo gravitacional  </baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB9J83-3KN4QR-98B">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia nuclear associada ao comportamento das partículas que constituem o núcleo atômico</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB7YF7-29TGKYP-8Z2">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>ENERGIA</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB9C2S-1Y5DZYS-96S">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB9C2S-1Y5DZYS-96S"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia cinética de translação associada a dinâmica de uma parícula livre</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB923D-20XX5WG-94F">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB923D-20XX5WG-94F"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia cinética de rotação associada a dinâmica de  corpos rígidos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB7MKR-93Y87K-8Y1">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB7MKR-93Y87K-8Y1"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Sistema conservativo</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB98XP-4BG8V5-960">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB98XP-4BG8V5-960"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia potencial elétrica associada distribuição espacial de cargas elétricas</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJB84J3-1QL9QXD-8ZW">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJB84J3-1QL9QXD-8ZW"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Energia cinética de vibração associada a sistemas oscilantes</baseNameString>
+  </baseName>
+</topic>
+
+<association id="1YCJB9J83-1DV62C8-98F">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB95ZD-29TYQNY-95B">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB9P33-9YYMWM-996">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB9DXK-1ZDX5R4-97N">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB9C2X-95QCDC-96W">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB84J3-W62SVF-8ZZ">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB7MKR-CN9T8M-8Y4">
+  <instanceOf>
+    <topicRef xlink:href="#descrita pela Harmoniana dos sistema    " />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB98XP-RCR56G-963">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB923D-1VNW07T-94J">
+  <instanceOf>
+    <topicRef xlink:href="#exemplo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+
+<association id="1YCJB7YF7-22DPNB-8Z5">
+  <instanceOf>
+    <topicRef xlink:href="#a hamiltoniana é igual a" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJB9J83-3KN4QR-98B" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJB7YF7-29TGKYP-8Z2" />
+  </member>
+</association>
+</topicMap>

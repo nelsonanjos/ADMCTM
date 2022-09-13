@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
+<topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<topic id="1YCJ97680-19ZDQSY-6DC">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ97680-19ZDQSY-6DC"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Termo grego "Axios" (vcalor) e "logoss" estudo</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ91Q4P-B9RFBB-64T">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ91Q4P-B9RFBB-64T"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Axiliogia</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ99P44-1WVB89W-6N7">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Moral regras de conduta</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ9B1QG-4D3JY8-6P7">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ9B1QG-4D3JY8-6P7"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Rudolf Lotze, Frans Bretano, Max Scheller entre outros </baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ99SYZ-GJ9XPD-6NQ">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ99SYZ-GJ9XPD-6NQ"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Estética Compreensão e Sentido</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ9BTDN-SNG71R-6RR">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ9BTDN-SNG71R-6RR"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Direitos e  Deveres</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ9BF9J-152MPR7-6Q3">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ9BF9J-152MPR7-6Q3"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Século XIX</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ95X40-197RZK6-6BH">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ95X40-197RZK6-6BH"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Principais Filósofos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ93QX4-1HSWGRC-67F">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ93QX4-1HSWGRC-67F"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Teoria dos  valores do ser  humano</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ9BNT2-12L6C42-6QY">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ9BNT2-12L6C42-6QY"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Emoção e  Sentimento</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ9BZ80-19MXZ7Q-6SK">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Valor do bem e do mal</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJ99HHX-1Y9W09Q-6MF">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJ99HHX-1Y9W09Q-6MF"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Política Liberdade e Democracia</baseNameString>
+  </baseName>
+</topic>
+
+<association id="1YCJ9BZ89-22K6Z1R-6SN">
+  <instanceOf>
+    <topicRef xlink:href="#Relação" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ93QXG-56DLQ3-67J">
+  <instanceOf>
+    <topicRef xlink:href="#" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ95X40-1JJWXPV-6BL">
+  <instanceOf>
+    <topicRef xlink:href="#" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ9BNT2-24FKCTG-6R1">
+  <instanceOf>
+    <topicRef xlink:href="#Através" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ9BTDN-D61XPN-6RV">
+  <instanceOf>
+    <topicRef xlink:href="#Exercer" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ9B1QG-YRTS7Y-6PB">
+  <instanceOf>
+    <topicRef xlink:href="#" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ9BF9J-1Z4VD6N-6Q6">
+  <instanceOf>
+    <topicRef xlink:href="#Surgimento" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ99HHX-1998DL-6MJ">
+  <instanceOf>
+    <topicRef xlink:href="#Valores" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+
+<association id="1YCJ98Z2K-1R5GYYR-6LQ">
+  <instanceOf>
+    <topicRef xlink:href="#" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJ9BZ80-19MXZ7Q-6SK" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJ99P44-1WVB89W-6N7" />
+  </member>
+</association>
+</topicMap>

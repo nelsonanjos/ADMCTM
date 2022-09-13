@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
+<topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<topic id="1YCJD62HM-1G73M8X-FZS">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD62HM-1G73M8X-FZS"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Conhecimentos de Física</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD4GHC-2322HS7-FRX">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD4GHC-2322HS7-FRX"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Preciso; Consistente; Adequado;</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD6HRB-7KJVDX-G1D">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD6HRB-7KJVDX-G1D"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Explicativo;de Preditivo; Representativo;</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD4M3X-3G8QVY-FSP">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD4M3X-3G8QVY-FSP"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Animações Interativas</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD476W-1TSCSST-FR3">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD476W-1TSCSST-FR3"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Científicos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJDRD83-1PCSFY2-JCK">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJDRD83-1PCSFY2-JCK"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Ferramentas Cognitivas</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD2ZR9-1KG2PCP-FLV">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Modelos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD3NJ5-PMQTHR-FP0">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD3NJ5-PMQTHR-FP0"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Não Científicos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD4TD3-7385YJ-FTH">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD4TD3-7385YJ-FTH"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Conceitos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD5PV7-YW8SZ3-FXF">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD5PV7-YW8SZ3-FXF"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Significados</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD2V0J-12F5680-FLL">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Realidade</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD58YQ-415FTW-FVX">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD58YQ-415FTW-FVX"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Conhecimento</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD5Y7R-250MLDN-FYZ">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD5Y7R-250MLDN-FYZ"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Aprendizagem Significativa</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD3G4R-P02710-FNJ">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD3G4R-P02710-FNJ"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Conceituais</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD35H1-1DQVH1-FMN">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD35H1-1DQVH1-FMN"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Mentais</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD67WS-2Z4YPF-G0L">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD67WS-2Z4YPF-G0L"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Sistemas Físicos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD41Z9-2DL778K-FQM">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD41Z9-2DL778K-FQM"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Percepções</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YCJD3W6L-LFV2V3-FPT">
+  <instanceOf>
+    <topicRef xlink:href="#1YCJD3W6L-LFV2V3-FPT"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Imaginações</baseNameString>
+  </baseName>
+</topic>
+
+<association id="1YCJD2ZR9-29D36HM-FLY">
+  <instanceOf>
+    <topicRef xlink:href="#representada por" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD5225-1ZKR00V-FV8">
+  <instanceOf>
+    <topicRef xlink:href="#guardam 
+relações com" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD67WS-7NK7T5-G0P">
+  <instanceOf>
+    <topicRef xlink:href="#presente nos" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJDRGXM-PL1R27-JDB">
+  <instanceOf>
+    <topicRef xlink:href="#na forma de" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD58YQ-V2S645-FW0">
+  <instanceOf>
+    <topicRef xlink:href="#estruturam" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD5F4Q-1PMSGJR-FWQ">
+  <instanceOf>
+    <topicRef xlink:href="#presente
+nas" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD4GHC-1GGWF59-FS0">
+  <instanceOf>
+    <topicRef xlink:href="#construídos 
+de modo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD3NJ5-1SD7WHH-FP3">
+  <instanceOf>
+    <topicRef xlink:href="#são" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD4M3X-7X1XM-FSS">
+  <instanceOf>
+    <topicRef xlink:href="#tipo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD5PV7-1D9B1NL-FXJ">
+  <instanceOf>
+    <topicRef xlink:href="#carregam" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD6Q53-1X2S767-G27">
+  <instanceOf>
+    <topicRef xlink:href="#de" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD4776-1606D35-FR6">
+  <instanceOf>
+    <topicRef xlink:href="#são" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJDK9BX-19M7G8V-H52">
+  <instanceOf>
+    <topicRef xlink:href="#podem ser
+construidos por" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJDRD83-22FT9N7-JCN">
+  <instanceOf>
+    <topicRef xlink:href="#facilitadas
+por" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD4TD3-186DY4M-FTL">
+  <instanceOf>
+    <topicRef xlink:href="#descrita por" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD6HRB-1TVZ649-G1H">
+  <instanceOf>
+    <topicRef xlink:href="#com poder" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD3W6L-JRCXP5-FPX">
+  <instanceOf>
+    <topicRef xlink:href="#resultante de" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD62HM-19P40T-FZW">
+  <instanceOf>
+    <topicRef xlink:href="#dos" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+
+<association id="1YCJD35H1-WXWBG4-FMR">
+  <instanceOf>
+    <topicRef xlink:href="#do tipo" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YCJD2ZR9-1KG2PCP-FLV" />
+    </roleSpec>
+    <topicRef xlink:href="#1YCJD2V0J-12F5680-FLL" />
+  </member>
+</association>
+</topicMap>

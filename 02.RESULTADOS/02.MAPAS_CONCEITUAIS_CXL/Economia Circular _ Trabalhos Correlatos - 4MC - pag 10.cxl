@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Economia Circular</dc:title>
+        <dc:creator>
+            <vcard:FN>Nelson Anjos</vcard:FN>
+            <vcard:EMAIL>nelson.contatos@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>IF Baiano</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>Nelson Anjos</vcard:FN>
+            <vcard:EMAIL>nelson.contatos@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>IF Baiano</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>Nelson Anjos</vcard:FN>
+            <vcard:EMAIL>nelson.contatos@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>IF Baiano</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2022-08-10T02:44:55-03:00</dcterms:created>
+        <dcterms:modified>2022-08-10T02:44:55-03:00</dcterms:modified>
+        <dc:language>pt</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.03</dc:publisher>
+        <dc:extent>7712 bytes</dc:extent>
+        <dc:source>cmap:1Y5NCGZ9D-1YWTPH0-1:1Y5NCH1QG-3VMCS3-Z:1YBJP1TCY-28ZB62V-7K2</dc:source>
+    </res-meta>
+    <map width="1094" height="659">
+        <concept-list>
+            <concept id="1YBJPLKMG-JSRBD9-8QL" label="O design dos produtos deve&#xa;inspirar-se na natureza"/>
+            <concept id="1YBJP7P8X-1N4PT6Z-7ZT" label="Cradle to cradle"/>
+            <concept id="1YBJP8JKX-44W93B-812" label="Design para a efetividade:&#xa;fomentar produtos com impacto&#xa;positivo e reduzir os &#xa;impactos negativos&#xa;da comercializa&#xe7;&#xe3;o"/>
+            <concept id="1YBJPJRR2-VZRW5B-8MH" label="Os processos naturais servem de modelo&#xa;para a produ&#xe7;&#xe3;o econ&#xf4;mica"/>
+            <concept id="1YBJP389H-1QDKRP8-7P4" label="Caitalismo&#xa;Natural"/>
+            <concept id="1YBJPG091-J7N8FN-8CZ" label="Os interesses das empresas&#xa;e Meio ambiente se sobrep&#xf5;e"/>
+            <concept id="1YBJP57ZC-2B23YPB-7SY" label="Fechamento dos loops nas cadeias de&#xa;suprimentos, atrav&#xe9;s da log&#xed;stica&#xa;reversas e outras a&#xe7;&#xf5;es do GSCM"/>
+            <concept id="1YBJPP6KV-DXPGNN-8V1" label="Processos inovadores sejam &#xa;baseados na natureza e que &#xa;possam substituir os processos &#xa;industriais tradicionais"/>
+            <concept id="1YBJPGXKQ-1MJ0MK9-8GF" label="Biomim&#xe9;tica"/>
+            <concept id="1YBJPCMVF-178YQ1Z-88K" label="Aos ativos naturais&#xa;como: Ar, agua, solo e &#xa;outros organismos"/>
+            <concept id="1YBJP4H3M-TR501F-7RK" label="Closed loop&#xa;Supply chain"/>
+            <concept id="1YBJPHFR3-29DRR84-8HC" label="A natureza deve ser a grande&#xa;fonte de inspira&#xe7;&#xe3;o para&#xa;a inova&#xe7;&#xe3;o."/>
+            <concept id="1YBJPBMZR-45J27S-86T" label="Reduzir, reusar Reciclar"/>
+            <concept id="1YBJPNV9Y-PX9XM0-8T1" label="Economia&#xa;Azul"/>
+            <concept id="1YBJP1Y16-24S2NC-7N6" label="Economia &#xa;Circular"/>
+            <concept id="1YBJPW2VF-38JZFD-95Z" label="As pr&#xe1;ticas regenerativas&#xa;para o uso de &#xe1;gua, da terra, energia e &#xa;projetos de constru&#xe7;&#xe3;o"/>
+            <concept id="1YBJPVKYK-1Z8QM5Y-94S" label="Design &#xa;regenerativo"/>
+            <concept id="1YBJPS12M-9XFBL2-909" label="O ambiente local, com suas caracteristicas &#xa;ecologicas espec&#xed;ficas, &#xe9; a base para &#xa;solu&#xe7;&#xf5;es sustent&#xe1;veis"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1YBJP389J-X2L6ZB-7P7" label="Conceitos&#xa;adjacentes"/>
+            <linking-phrase id="1YBJPP6KW-14BTX78-8V4" label="Postula que"/>
+            <linking-phrase id="1YBJPHFR4-1W3VMXC-8HG" label="Postula que"/>
+            <linking-phrase id="1YBJPW2VG-2D3HBZV-962" label="Postula que"/>
+            <linking-phrase id="1YBJPCMVG-1M5R979-88N" label="Refere-se"/>
+            <linking-phrase id="1YBJP8JKY-1C5P589-815" label="Foco em"/>
+            <linking-phrase id="1YBJP57ZC-ZRXK8K-7T1" label="prop&#xf5;e"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1YBJP8JKY-11H683-81G" from-id="1YBJP8JKY-1C5P589-815" to-id="1YBJP8JKX-44W93B-812"/>
+            <connection id="1YBJPLKMH-1MTQFQL-8QP" from-id="1YBJPHFR4-1W3VMXC-8HG" to-id="1YBJPLKMG-JSRBD9-8QL"/>
+            <connection id="1YBJPNV9Y-27BT729-8T4" from-id="1YBJP389J-X2L6ZB-7P7" to-id="1YBJPNV9Y-PX9XM0-8T1"/>
+            <connection id="1YBJPJRR3-M87V6M-8ML" from-id="1YBJPHFR4-1W3VMXC-8HG" to-id="1YBJPJRR2-VZRW5B-8MH"/>
+            <connection id="1YBJP57ZC-3L3405-7T4" from-id="1YBJP4H3M-TR501F-7RK" to-id="1YBJP57ZC-ZRXK8K-7T1"/>
+            <connection id="1YBJPCMVG-15KTTQ1-88R" from-id="1YBJP389H-1QDKRP8-7P4" to-id="1YBJPCMVG-1M5R979-88N"/>
+            <connection id="1YBJPP6KW-1L9VYRV-8V7" from-id="1YBJPNV9Y-PX9XM0-8T1" to-id="1YBJPP6KW-14BTX78-8V4"/>
+            <connection id="1YBJPG092-644LMF-8D2" from-id="1YBJPCMVG-1M5R979-88N" to-id="1YBJPG091-J7N8FN-8CZ"/>
+            <connection id="1YBJPBMZS-1TSGKG1-86X" from-id="1YBJP8JKY-1C5P589-815" to-id="1YBJPBMZR-45J27S-86T"/>
+            <connection id="1YBJP389K-KPGPS1-7PK" from-id="1YBJP389J-X2L6ZB-7P7" to-id="1YBJP389H-1QDKRP8-7P4"/>
+            <connection id="1YBJPW2VG-1RJ5RW5-965" from-id="1YBJPVKYK-1Z8QM5Y-94S" to-id="1YBJPW2VG-2D3HBZV-962"/>
+            <connection id="1YBJPCMVG-43B0N3-88Y" from-id="1YBJPCMVG-1M5R979-88N" to-id="1YBJPCMVF-178YQ1Z-88K"/>
+            <connection id="1YBJP7P8Y-2BFWHPX-7ZX" from-id="1YBJP389J-X2L6ZB-7P7" to-id="1YBJP7P8X-1N4PT6Z-7ZT"/>
+            <connection id="1YBJP4H3N-1V3S6DN-7RN" from-id="1YBJP389J-X2L6ZB-7P7" to-id="1YBJP4H3M-TR501F-7RK"/>
+            <connection id="1YBJPP6KW-487R58-8VF" from-id="1YBJPP6KW-14BTX78-8V4" to-id="1YBJPP6KV-DXPGNN-8V1"/>
+            <connection id="1YBJP57ZC-1YH15D5-7TB" from-id="1YBJP57ZC-ZRXK8K-7T1" to-id="1YBJP57ZC-2B23YPB-7SY"/>
+            <connection id="1YBJP389J-1FPBHH0-7PC" from-id="1YBJP1Y16-24S2NC-7N6" to-id="1YBJP389J-X2L6ZB-7P7"/>
+            <connection id="1YBJPVKYL-29LPG9-94W" from-id="1YBJP389J-X2L6ZB-7P7" to-id="1YBJPVKYK-1Z8QM5Y-94S"/>
+            <connection id="1YBJPS12N-NX0Y2C-90D" from-id="1YBJPP6KW-14BTX78-8V4" to-id="1YBJPS12M-9XFBL2-909"/>
+            <connection id="1YBJP8JKY-1CDKN7P-818" from-id="1YBJP7P8X-1N4PT6Z-7ZT" to-id="1YBJP8JKY-1C5P589-815"/>
+            <connection id="1YBJPW2VG-C390G5-96C" from-id="1YBJPW2VG-2D3HBZV-962" to-id="1YBJPW2VF-38JZFD-95Z"/>
+            <connection id="1YBJPHFR4-1D9DMD8-8HR" from-id="1YBJPHFR4-1W3VMXC-8HG" to-id="1YBJPHFR3-29DRR84-8HC"/>
+            <connection id="1YBJPHFR4-1M0TKTX-8HK" from-id="1YBJPGXKQ-1MJ0MK9-8GF" to-id="1YBJPHFR4-1W3VMXC-8HG"/>
+            <connection id="1YBJPGXKR-DR4978-8GJ" from-id="1YBJP389J-X2L6ZB-7P7" to-id="1YBJPGXKQ-1MJ0MK9-8GF"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1YBJPLKMG-JSRBD9-8QL" x="1151" y="492" width="185" height="42"/>
+            <concept-appearance id="1YBJP7P8X-1N4PT6Z-7ZT" x="610" y="320" width="123" height="25" font-style="bold"/>
+            <concept-appearance id="1YBJP8JKX-44W93B-812" x="484" y="564" width="210" height="86"/>
+            <concept-appearance id="1YBJPJRR2-VZRW5B-8MH" x="1131" y="386" width="264" height="42"/>
+            <concept-appearance id="1YBJP389H-1QDKRP8-7P4" x="743" y="362" width="87" height="40" font-style="bold"/>
+            <concept-appearance id="1YBJPG091-J7N8FN-8CZ" x="916" y="664" width="193" height="42"/>
+            <concept-appearance id="1YBJP57ZC-2B23YPB-7SY" x="436" y="111" width="244" height="57"/>
+            <concept-appearance id="1YBJPP6KV-DXPGNN-8V1" x="1140" y="206" width="208" height="69"/>
+            <concept-appearance id="1YBJPGXKQ-1MJ0MK9-8GF" x="865" y="348" width="100" height="26" font-style="bold"/>
+            <concept-appearance id="1YBJPCMVF-178YQ1Z-88K" x="680" y="669" width="158" height="56"/>
+            <concept-appearance id="1YBJP4H3M-TR501F-7RK" x="594" y="207" width="102" height="42" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" border-color="0,0,0,255"
+                border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1YBJPHFR3-29DRR84-8HC" x="936" y="500" width="195" height="57"/>
+            <concept-appearance id="1YBJPBMZR-45J27S-86T" x="418" y="430" width="159" height="27"/>
+            <concept-appearance id="1YBJPNV9Y-PX9XM0-8T1" x="919" y="281" width="81" height="40" font-style="bold"/>
+            <concept-appearance id="1YBJP1Y16-24S2NC-7N6" x="728" y="71" width="85" height="40" font-style="bold"/>
+            <concept-appearance id="1YBJPW2VF-38JZFD-95Z" x="1046" y="69" width="258" height="57"/>
+            <concept-appearance id="1YBJPVKYK-1Z8QM5Y-94S" x="862" y="174" width="102" height="42" font-style="bold"/>
+            <concept-appearance id="1YBJPS12M-9XFBL2-909" x="1267" y="317" width="278" height="57"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1YBJP389J-X2L6ZB-7P7" x="740" y="238" width="67" height="28"/>
+            <linking-phrase-appearance id="1YBJPP6KW-14BTX78-8V4" x="1014" y="282" width="72" height="14"/>
+            <linking-phrase-appearance id="1YBJPHFR4-1W3VMXC-8HG" x="905" y="401" width="72" height="14"/>
+            <linking-phrase-appearance id="1YBJPW2VG-2D3HBZV-962" x="941" y="130" width="72" height="14"/>
+            <linking-phrase-appearance id="1YBJPCMVG-1M5R979-88N" x="712" y="522" width="60" height="11"/>
+            <linking-phrase-appearance id="1YBJP8JKY-1C5P589-815" x="563" y="408" width="53" height="11"/>
+            <linking-phrase-appearance id="1YBJP57ZC-ZRXK8K-7T1" x="512" y="195" width="44" height="14"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1YBJP8JKY-11H683-81G" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPLKMH-1MTQFQL-8QP" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPNV9Y-27BT729-8T4" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPJRR3-M87V6M-8ML" from-pos="center" to-pos="bottom-left"/>
+            <connection-appearance id="1YBJP57ZC-3L3405-7T4" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPCMVG-15KTTQ1-88R" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPP6KW-1L9VYRV-8V7" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPG092-644LMF-8D2" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPBMZS-1TSGKG1-86X" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJP389K-KPGPS1-7PK" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPW2VG-1RJ5RW5-965" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPCMVG-43B0N3-88Y" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJP7P8Y-2BFWHPX-7ZX" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJP4H3N-1V3S6DN-7RN" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPP6KW-487R58-8VF" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJP57ZC-1YH15D5-7TB" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJP389J-1FPBHH0-7PC" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPVKYL-29LPG9-94W" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPS12N-NX0Y2C-90D" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJP8JKY-1CDKN7P-818" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPW2VG-C390G5-96C" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPHFR4-1D9DMD8-8HR" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPHFR4-1M0TKTX-8HK" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1YBJPGXKR-DR4978-8GJ" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="1YBJP1TCY-28ZB62V-7K2">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

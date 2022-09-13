@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<!DOCTYPE topicMap PUBLIC "-//TopicMaps.Org//DTD XML Topic Map (XTM) 1.0//EN" "./topics_map.xml">
+<topicMap xmlns='http://www.topicmaps.org/xtm/1.0/' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<topic id="1YB7J1YH5-Z1WRP8-5W6">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J1YH5-Z1WRP8-5W6"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Sistema de Representação do Conhecimento</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7JTBD8-3QFGJK-6WV">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7JTBD8-3QFGJK-6WV"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Frames</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7J8B5Q-2DXTNT8-65N">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J8B5Q-2DXTNT8-65N"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Amadurecer Ideias</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7J5LJX-PSSFL9-5Z9">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J5LJX-PSSFL9-5Z9"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Manifestar Ideias</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7JJVKC-1WTGF4Z-6HN">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7JJVKC-1WTGF4Z-6HN"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Conceitos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7JTQ23-1X622XQ-6XT">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7JTQ23-1X622XQ-6XT"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Redes Neurais</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7JHNR0-1TN67VB-6FH">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7JHNR0-1TN67VB-6FH"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Representar Conhecimento</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7J71FQ-18MKS8T-62J">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J71FQ-18MKS8T-62J"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Organizada</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7J9MZ1-1YK4K1X-69D">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J9MZ1-1YK4K1X-69D"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Rede Semântica</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7J686C-15KK5BT-61D">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J686C-15KK5BT-61D"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Repassar Ideias</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7JKCNR-V5BTPV-6K0">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Preposições</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7JKXYX-1B6BJWW-6L1">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7JKXYX-1B6BJWW-6L1"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Termos</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7J1GX4-1HPLHRC-5VC">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J1GX4-1HPLHRC-5VC"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Mapa Conceitual</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7JWVMB-1LH51QC-74F">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Verbo Conjugado</baseNameString>
+  </baseName>
+</topic>
+
+<topic id="1YB7J8RKY-58KQ0X-673">
+  <instanceOf>
+    <topicRef xlink:href="#1YB7J8RKY-58KQ0X-673"/>
+  </instanceOf>
+  <baseName>
+    <baseNameString>Organização do Conhecimento</baseNameString>
+  </baseName>
+</topic>
+
+<association id="1YB7JWVMB-1WT4XJV-74J">
+  <instanceOf>
+    <topicRef xlink:href="#representado" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7J1YH5-B70BJQ-5W9">
+  <instanceOf>
+    <topicRef xlink:href="#é" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7JKXYX-KL5JTW-6L4">
+  <instanceOf>
+    <topicRef xlink:href="#representado" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7J9MZ1-1ZRXD2Y-69H">
+  <instanceOf>
+    <topicRef xlink:href="#é também" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7J8RKY-6RBH3X-676">
+  <instanceOf>
+    <topicRef xlink:href="#cotém" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7JHNR0-2JZPMP-6FL">
+  <instanceOf>
+    <topicRef xlink:href="#serve" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7J71FQ-24GCX5P-62M">
+  <instanceOf>
+    <topicRef xlink:href="#de maneira" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7JJVKC-1P75KNF-6HR">
+  <instanceOf>
+    <topicRef xlink:href="#contém" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7J8B5Q-1BC35Y8-65R">
+  <instanceOf>
+    <topicRef xlink:href="#para" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+
+<association id="1YB7J5LJX-16Y2V79-5ZD">
+  <instanceOf>
+    <topicRef xlink:href="#torna possível" />
+  </instanceOf>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+  </member>
+  <member>
+    <roleSpec>
+      <topicRef xlink:href="#1YB7JWVMB-1LH51QC-74F" />
+    </roleSpec>
+    <topicRef xlink:href="#1YB7JKCNR-V5BTPV-6K0" />
+  </member>
+</association>
+</topicMap>
